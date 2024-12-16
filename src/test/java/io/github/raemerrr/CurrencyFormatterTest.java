@@ -21,7 +21,7 @@ class CurrencyFormatterTest {
 		var exception = assertThrows(IllegalArgumentException.class, () ->
 				DEFAULT_CURRENCY_FORMATTER.format(null, 123456.789)
 		);
-		assertEquals("Locale and Currency must not be null.", exception.getMessage());
+		assertEquals("Locale and currency must not be null.", exception.getMessage());
 	}
 
 	@Test
@@ -29,7 +29,7 @@ class CurrencyFormatterTest {
 		var exception = assertThrows(IllegalArgumentException.class, () ->
 				DEFAULT_CURRENCY_FORMATTER.format(Locale.US, null)
 		);
-		assertEquals("Locale and Currency must not be null.", exception.getMessage());
+		assertEquals("Locale and currency must not be null.", exception.getMessage());
 	}
 
 	@Test
