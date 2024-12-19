@@ -27,12 +27,4 @@ public class DefaultCurrencyFormatter implements CurrencyFormatter {
 			throw new IllegalArgumentException("Currency must be a valid number.");
 		}
 	}
-
-	public static void main(String[] args) throws IllegalArgumentException {
-		CurrencyFormatter formatter = new DefaultCurrencyFormatter();
-
-		System.out.println(formatter.format(Locale.KOREA, 123456.789));
-		System.out.println(formatter.format(Locale.US, 123456.789));
-		System.out.println(formatter.format(Locale.JAPAN, 123456.789));
-	}
 }
