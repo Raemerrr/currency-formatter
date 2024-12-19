@@ -23,14 +23,14 @@
 <dependency>
 	<groupId>io.github.raemerrr</groupId>
 	<artifactId>currency-formatter</artifactId>
-	<version>0.0.1</version>
+	<version>0.0.2</version>
 </dependency>
 ```
 
 ### 2. Gradle
 
 ```gradle
-implementation("io.github.raemerrr:currency-formatter:0.0.1")
+implementation("io.github.raemerrr:currency-formatter:0.0.2")
 ```
 
 # 🚀 CurrencyFormatter 사용 방법
